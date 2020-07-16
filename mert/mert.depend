@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594844473 source:c:\users\turka\televİsonedrive\onedrive\desktop\codeblocks yazılım denemeleri\mert\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
