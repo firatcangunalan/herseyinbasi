@@ -15,10 +15,12 @@ printf("Ürünlerdeki hidrojenin katsayýsýný tam sayý olarak girin.\n");
 scanf("%d",&urunlerHidrojen);
 printf("Ürünlerdeki anyonun katsayýsýný tam sayý olarak girin.\n");
 scanf("%d",&urunlerKatyon);
-printf("Girenler için mol deðeri mi gireceksin, molarite deðeri mi? Mol için 1, molarite için 2 tuþla.\n");
+secimtekrar:
+printf("Girenler için mol deðeri mi gireceksin, molarite deðeri mi? Mol için \"1\", molarite için \"2\" yaz.\n");
 int secimmolmolar;
 float girenlermol;
 scanf("%d",&secimmolmolar);
+//printf("%s",secimmolmolar);
 if(secimmolmolar==1){
     printf("Mol deðeriniz girin.\n");
     scanf("%f",&girenlermol);
@@ -35,7 +37,7 @@ if(secimmolmolar==1){
     sonuc=(-b+sqrt(delta))/(2*a);
     float pH;
     pH=-log10(sonuc);
-    printf("pH deðeri: %f Hidrojen Deriþimi: %f",pH,sonuc);
+    printf("pH deðeri: %f Hidrojen Deriþimi: %f\n",pH,sonuc);
 }
 else{
     float litre,molarite;
@@ -46,11 +48,13 @@ else{
     girenlermol=(molarite*litre);
     goto devamhesap;
 }
+
 }
 
 int main()
 {
     turkcedili();
     zayifasit();
+    getch();
     return 0;
 }
