@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1595057982 source:c:\users\firat\onedrive\belgeler\github\herseyinbasi\deneme\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
