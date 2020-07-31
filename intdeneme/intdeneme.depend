@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1595368540 source:c:\users\firat\onedrive\belgeler\github\herseyinbasi\intdeneme\main.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<conio.h>
+
